@@ -14,7 +14,7 @@ btn.addEventListener('click', () => {
         video.pause();
         btn.style.display = 'flex';
         text.style.display = 'none';
-    }, 60500);
+    }, 24000);
 });
 
 text.addEventListener('click', () => {
@@ -23,4 +23,3 @@ text.addEventListener('click', () => {
     btn.style.display = 'flex';
     text.style.display = 'none';
 });
-
